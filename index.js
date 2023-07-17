@@ -6,6 +6,13 @@ const plantNeedsWater = (day) => {
     }
 };
 
+const city = 'New York City';
+function logCitySkyline(){
+let skyscraper = 'Empire State Building'
+return 'The stars over the ' + skyscraper + ' in ' + city;
+};
+console.log(logCitySkyline());
+
 /* Arrow Functions (ES6)
 
 Arrow function expressions were introduced in ES6. These expressions are clean and concise. The syntax for an arrow function expression does not require the function keyword and uses a fat arrow => to separate the parameter(s) from the body.
